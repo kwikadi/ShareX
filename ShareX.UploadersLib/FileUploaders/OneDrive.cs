@@ -88,6 +88,7 @@ namespace ShareX.UploadersLib.FileUploaders
             args.Add("code", code);
             args.Add("client_id", AuthInfo.Client_ID);
             args.Add("client_secret", AuthInfo.Client_Secret);
+            args.Add("redirect_uri", "https://login.live.com/oauth20_desktop.srf");
 
             string response = SendRequest(HttpMethod.POST, "https://login.live.com/oauth20_token.srf", args);
 

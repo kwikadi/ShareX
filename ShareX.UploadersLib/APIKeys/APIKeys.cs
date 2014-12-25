@@ -54,8 +54,8 @@ namespace ShareX.UploadersLib
         public static string JiraConsumerKey = "";
         public static string MediaFireAppId = "";
         public static string MediaFireApiKey = "";
-        public static string OneDriveClientID = "";
-        public static string OneDriveClientSecret = "";
+        public static string OneDriveClientID = "000000004013A3F3";
+        public static string OneDriveClientSecret = "YW8NN3N6EAW6NYvoib2NJceSmfK9mfrb";
 
         // Text Uploaders
         public static string PastebinKey = "";

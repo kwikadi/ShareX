@@ -50,7 +50,7 @@ namespace ShareX.UploadersLib
             InitializeComponent();
 
             // TODO: Add OneDrive support
-            tcFileUploaders.TabPages.Remove(tpOneDrive);
+            //tcFileUploaders.TabPages.Remove(tpOneDrive);
 
             if (!string.IsNullOrEmpty(Config.FilePath))
             {
