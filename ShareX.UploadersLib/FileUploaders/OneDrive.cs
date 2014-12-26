@@ -26,11 +26,10 @@
 using Newtonsoft.Json;
 using ShareX.HelpersLib;
 using ShareX.UploadersLib.HelperClasses;
-using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Text;
 
 namespace ShareX.UploadersLib.FileUploaders
 {
@@ -38,6 +37,13 @@ namespace ShareX.UploadersLib.FileUploaders
     {
         public OAuth2Info AuthInfo { get; set; }
         public string FolderID { get; set; }
+        public bool AutoCreateShareableLink { get; set; }
+
+        public static OneDriveFileInfo RootFolder = new OneDriveFileInfo
+        {
+            id = "me/skydrive",
+            name = "Root folder"
+        };
 
         public OneDrive(OAuth2Info authInfo)
         {
@@ -137,7 +143,125 @@ namespace ShareX.UploadersLib.FileUploaders
 
         public override UploadResult Upload(Stream stream, string fileName)
         {
-            throw new NotImplementedException();
+            if (!CheckAuthorization()) return null;
+
+            Dictionary<string, string> args = new Dictionary<string, string>();
+            args.Add("access_token", AuthInfo.Token.access_token);
+            args.Add("overwrite", "true");
+            args.Add("downsize_photo_uploads", "false");
+
+            string folderPath;
+
+            if (!string.IsNullOrEmpty(FolderID))
+            {
+                folderPath = URLHelpers.CombineURL(FolderID, "files");
+            }
+            else
+            {
+                folderPath = "me/skydrive/files";
+            }
+
+            string url = CreateQuery(URLHelpers.CombineURL("https://apis.live.net/v5.0", folderPath), args);
+
+            UploadResult result = UploadData(stream, url, fileName);
+
+            if (result.IsSuccess)
+            {
+                OneDriveFileInfo uploadInfo = JsonConvert.DeserializeObject<OneDriveFileInfo>(result.Response);
+
+                if (AutoCreateShareableLink)
+                {
+                    result.URL = CreateShareableLink(uploadInfo.id);
+                }
+                else
+                {
+                    result.URL = uploadInfo.source;
+                }
+            }
+
+            return result;
         }
+
+        public string CreateShareableLink(string id, OneDriveLinkType linkType = OneDriveLinkType.Read)
+        {
+            Dictionary<string, string> args = new Dictionary<string, string>();
+            args.Add("access_token", AuthInfo.Token.access_token);
+
+            string linkTypeValue;
+
+            switch (linkType)
+            {
+                case OneDriveLinkType.Embed:
+                    linkTypeValue = "embed";
+                    break;
+                default:
+                case OneDriveLinkType.Read:
+                    linkTypeValue = "shared_read_link";
+                    break;
+                case OneDriveLinkType.Edit:
+                    linkTypeValue = "shared_edit_link";
+                    break;
+            }
+
+            string url = CreateQuery(string.Format("https://apis.live.net/v5.0/{0}/{1}", id, linkTypeValue), args);
+
+            string response = SendRequest(HttpMethod.GET, url);
+
+            OneDriveShareableLinkInfo shareableLinkInfo = JsonConvert.DeserializeObject<OneDriveShareableLinkInfo>(response);
+
+            if (shareableLinkInfo != null)
+            {
+                return shareableLinkInfo.link;
+            }
+
+            return null;
+        }
+
+        public OneDrivePathInfo GetPathInfo(string path)
+        {
+            if (!CheckAuthorization()) return null;
+
+            Dictionary<string, string> args = new Dictionary<string, string>();
+            args.Add("access_token", AuthInfo.Token.access_token);
+
+            string url = CreateQuery(URLHelpers.CombineURL("https://apis.live.net/v5.0", path), args);
+
+            string response = SendRequest(HttpMethod.GET, url);
+
+            if (response != null)
+            {
+                OneDrivePathInfo pathInfo = JsonConvert.DeserializeObject<OneDrivePathInfo>(response);
+                return pathInfo;
+            }
+
+            return null;
+        }
+    }
+
+    public class OneDriveFileInfo
+    {
+        public string id { get; set; }
+        public string name { get; set; }
+        public string source { get; set; }
+    }
+
+    public class OneDriveShareableLinkInfo
+    {
+        public string link { get; set; }
+    }
+
+    public class OneDrivePathInfo
+    {
+        public OneDriveFileInfo[] data { get; set; }
+    }
+
+    public enum OneDriveLinkType
+    {
+        [Description("An embedded link, which is an HTML code snippet that you can insert into a webpage to provide an interactive view of the corresponding file.")]
+        Embed,
+        [Description("A read-only link, which is a link to a read-only version of the folder or file.")]
+        Read,
+        [Description("A read-write link, which is a link to a read-write version of the folder or file.")]
+        Edit
     }
 }

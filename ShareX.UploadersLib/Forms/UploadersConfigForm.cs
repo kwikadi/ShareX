@@ -49,13 +49,11 @@ namespace ShareX.UploadersLib
             Config = uploadersConfig;
             InitializeComponent();
 
-            // TODO: Add OneDrive support
-            //tcFileUploaders.TabPages.Remove(tpOneDrive);
-
             if (!string.IsNullOrEmpty(Config.FilePath))
             {
                 Text += " - " + Config.FilePath;
             }
+
             Icon = ShareXResources.Icon;
         }
 
@@ -332,12 +330,15 @@ namespace ShareX.UploadersLib
             txtGoogleDriveFolderID.Enabled = Config.GoogleDriveUseFolder;
             txtGoogleDriveFolderID.Text = Config.GoogleDriveFolderID;
 
-            // One Drive
+            // OneDrive
 
             if (OAuth2Info.CheckOAuth(Config.OneDriveOAuth2Info))
             {
                 oAuth2OneDrive.Status = OAuthLoginStatus.LoginSuccessful;
+                btnOneDriveRefreshFolders.Enabled = true;
             }
+
+            cbOneDriveCreateShareableLink.Checked = Config.OneDriveAutoCreateShareableLink;
 
             // Minus
 
@@ -1115,6 +1116,54 @@ namespace ShareX.UploadersLib
 
         #endregion Copy
 
+        #region OneDrive
+
+        private void oAuth2OneDrive_OpenButtonClicked()
+        {
+            OneDriveAuthOpen();
+        }
+
+        private void oAuth2OneDrive_CompleteButtonClicked(string code)
+        {
+            OneDriveAuthComplete(code);
+        }
+
+        private void oAuth2OneDrive_RefreshButtonClicked()
+        {
+            OneDriveAuthRefresh();
+        }
+
+        private void oAuth2OneDrive_ClearButtonClicked()
+        {
+            Config.OneDriveOAuth2Info = null;
+        }
+
+        private void cbOneDriveCreateShareableLink_CheckedChanged(object sender, EventArgs e)
+        {
+            Config.OneDriveAutoCreateShareableLink = cbOneDriveCreateShareableLink.Checked;
+        }
+
+        private void btnOneDriveRefreshFolders_Click(object sender, EventArgs e)
+        {
+            OneDriveListFolders();
+        }
+
+        private void lvOneDriveFolders_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left && lvOneDriveFolders.SelectedItems.Count > 0)
+            {
+                ListViewItem lvi = lvOneDriveFolders.SelectedItems[0];
+                OneDriveFileInfo file = lvi.Tag as OneDriveFileInfo;
+                if (file != null)
+                {
+                    lvOneDriveFolders.Items.Clear();
+                    OneDriveListFolders(file);
+                }
+            }
+        }
+
+        #endregion OneDrive
+
         #region Google Drive
 
         private void oauth2GoogleDrive_OpenButtonClicked()
@@ -1768,30 +1817,6 @@ namespace ShareX.UploadersLib
         }
 
         #endregion Amazon S3
-
-        #region OneDrive
-
-        private void oAuth2OneDrive_OpenButtonClicked()
-        {
-            OneDriveAuthOpen();
-        }
-
-        private void oAuth2OneDrive_CompleteButtonClicked(string code)
-        {
-            OneDriveAuthComplete(code);
-        }
-
-        private void oAuth2OneDrive_RefreshButtonClicked()
-        {
-            OneDriveAuthRefresh();
-        }
-
-        private void oAuth2OneDrive_ClearButtonClicked()
-        {
-            Config.OneDriveOAuth2Info = null;
-        }
-
-        #endregion OneDrive
 
         #region ownCloud
 

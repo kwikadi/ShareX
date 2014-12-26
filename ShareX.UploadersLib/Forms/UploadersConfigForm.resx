@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1187,7 +1188,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="txtCustomUploaderLog.Text" xml:space="preserve">
     <value />
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;txtCustomUploaderLog.Name" xml:space="preserve">
     <value>txtCustomUploaderLog</value>
   </data>
@@ -1349,7 +1350,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="lblCustomUploaderURL.Text" xml:space="preserve">
     <value>URL:</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;lblCustomUploaderURL.Name" xml:space="preserve">
     <value>lblCustomUploaderURL</value>
   </data>
@@ -1637,7 +1638,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpTwitter.Text" xml:space="preserve">
     <value>Twitter</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpTwitter.Name" xml:space="preserve">
     <value>tpTwitter</value>
   </data>
@@ -1787,7 +1788,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpBitly.Text" xml:space="preserve">
     <value>bit.ly</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpBitly.Name" xml:space="preserve">
     <value>tpBitly</value>
   </data>
@@ -1856,7 +1857,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpGoogleURLShortener.Text" xml:space="preserve">
     <value>Google</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpGoogleURLShortener.Name" xml:space="preserve">
     <value>tpGoogleURLShortener</value>
   </data>
@@ -2090,7 +2091,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="lblYourlsAPIURL.Text" xml:space="preserve">
     <value>API URL:</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;lblYourlsAPIURL.Name" xml:space="preserve">
     <value>lblYourlsAPIURL</value>
   </data>
@@ -2117,7 +2118,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpYourls.Text" xml:space="preserve">
     <value>YOURLS</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpYourls.Name" xml:space="preserve">
     <value>tpYourls</value>
   </data>
@@ -2198,7 +2199,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="lblAdflyAPIUID.Text" xml:space="preserve">
     <value>API UID:</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;lblAdflyAPIUID.Name" xml:space="preserve">
     <value>lblAdflyAPIUID</value>
   </data>
@@ -2276,7 +2277,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpAdFly.Text" xml:space="preserve">
     <value>adf.ly</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpAdFly.Name" xml:space="preserve">
     <value>tpAdFly</value>
   </data>
@@ -2551,7 +2552,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>4, 4, 4, 4</value>
   </data>
   <data name="ucFTPAccounts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 406</value>
+    <value>792, 388</value>
   </data>
   <data name="ucFTPAccounts.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -2582,7 +2583,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpFTP.Text" xml:space="preserve">
     <value>FTP</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpFTP.Name" xml:space="preserve">
     <value>tpFTP</value>
   </data>
@@ -2992,7 +2993,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpDropbox.Text" xml:space="preserve">
     <value>Dropbox</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpDropbox.Name" xml:space="preserve">
     <value>tpDropbox</value>
   </data>
@@ -3004,6 +3005,201 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="&gt;&gt;tpDropbox.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="lblOneDriveFolderTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOneDriveFolderTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOneDriveFolderTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 425</value>
+  </data>
+  <data name="lblOneDriveFolderTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 13</value>
+  </data>
+  <data name="lblOneDriveFolderTip.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblOneDriveFolderTip.Text" xml:space="preserve">
+    <value>Note: You can double click folder name to go inside that folder and choose it.</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderTip.Name" xml:space="preserve">
+    <value>lblOneDriveFolderTip</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderTip.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderTip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>435</value>
+  </data>
+  <data name="lvOneDriveFolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 72</value>
+  </data>
+  <data name="lvOneDriveFolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 344</value>
+  </data>
+  <data name="lvOneDriveFolders.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lvOneDriveFolders.Name" xml:space="preserve">
+    <value>lvOneDriveFolders</value>
+  </data>
+  <data name="&gt;&gt;lvOneDriveFolders.Type" xml:space="preserve">
+    <value>ShareX.HelpersLib.MyListView, ShareX.HelpersLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lvOneDriveFolders.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;lvOneDriveFolders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblOneDriveFolderID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOneDriveFolderID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOneDriveFolderID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 50</value>
+  </data>
+  <data name="lblOneDriveFolderID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblOneDriveFolderID.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblOneDriveFolderID.Text" xml:space="preserve">
+    <value>Selected folder:</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderID.Name" xml:space="preserve">
+    <value>lblOneDriveFolderID</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderID.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;lblOneDriveFolderID.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 16</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 23</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnOneDriveRefreshFolders.Text" xml:space="preserve">
+    <value>Refresh folders list</value>
+  </data>
+  <data name="&gt;&gt;btnOneDriveRefreshFolders.Name" xml:space="preserve">
+    <value>btnOneDriveRefreshFolders</value>
+  </data>
+  <data name="&gt;&gt;btnOneDriveRefreshFolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOneDriveRefreshFolders.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;btnOneDriveRefreshFolders.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 264</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbOneDriveCreateShareableLink.Text" xml:space="preserve">
+    <value>Create shareable link</value>
+  </data>
+  <data name="&gt;&gt;cbOneDriveCreateShareableLink.Name" xml:space="preserve">
+    <value>cbOneDriveCreateShareableLink</value>
+  </data>
+  <data name="&gt;&gt;cbOneDriveCreateShareableLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbOneDriveCreateShareableLink.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;cbOneDriveCreateShareableLink.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="oAuth2OneDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="oAuth2OneDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 240</value>
+  </data>
+  <data name="oAuth2OneDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;oAuth2OneDrive.Name" xml:space="preserve">
+    <value>oAuth2OneDrive</value>
+  </data>
+  <data name="&gt;&gt;oAuth2OneDrive.Type" xml:space="preserve">
+    <value>ShareX.UploadersLib.OAuthControl, ShareX.UploadersLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;oAuth2OneDrive.Parent" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;oAuth2OneDrive.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tpOneDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="tpOneDrive.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpOneDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>972, 475</value>
+  </data>
+  <data name="tpOneDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="tpOneDrive.Text" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="&gt;&gt;tpOneDrive.Name" xml:space="preserve">
+    <value>tpOneDrive</value>
+  </data>
+  <data name="&gt;&gt;tpOneDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpOneDrive.Parent" xml:space="preserve">
+    <value>tcFileUploaders</value>
+  </data>
+  <data name="&gt;&gt;tpOneDrive.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="cbGoogleDriveUseFolder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3214,7 +3410,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpGoogleDrive.Text" xml:space="preserve">
     <value>Google Drive</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpGoogleDrive.Name" xml:space="preserve">
     <value>tpGoogleDrive</value>
   </data>
@@ -3225,7 +3421,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>tcFileUploaders</value>
   </data>
   <data name="&gt;&gt;tpGoogleDrive.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="lblBoxFolderTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3237,13 +3433,13 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>349, 425</value>
   </data>
   <data name="lblBoxFolderTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 13</value>
+    <value>371, 13</value>
   </data>
   <data name="lblBoxFolderTip.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="lblBoxFolderTip.Text" xml:space="preserve">
-    <value>Note: You can double click folder name to go inside that folder.</value>
+    <value>Note: You can double click folder name to go inside that folder and choose it.</value>
   </data>
   <data name="&gt;&gt;lblBoxFolderTip.Name" xml:space="preserve">
     <value>lblBoxFolderTip</value>
@@ -3409,7 +3605,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpBox.Text" xml:space="preserve">
     <value>Box</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpBox.Name" xml:space="preserve">
     <value>tpBox</value>
   </data>
@@ -3420,7 +3616,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>tcFileUploaders</value>
   </data>
   <data name="&gt;&gt;tpBox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="pbCopyLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3730,7 +3926,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpCopy.Text" xml:space="preserve">
     <value>Copy</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpCopy.Name" xml:space="preserve">
     <value>tpCopy</value>
   </data>
@@ -3741,54 +3937,6 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>tcFileUploaders</value>
   </data>
   <data name="&gt;&gt;tpCopy.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="oAuth2OneDrive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="oAuth2OneDrive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 240</value>
-  </data>
-  <data name="oAuth2OneDrive.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;oAuth2OneDrive.Name" xml:space="preserve">
-    <value>oAuth2OneDrive</value>
-  </data>
-  <data name="&gt;&gt;oAuth2OneDrive.Type" xml:space="preserve">
-    <value>ShareX.UploadersLib.OAuthControl, ShareX.UploadersLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;oAuth2OneDrive.Parent" xml:space="preserve">
-    <value>tpOneDrive</value>
-  </data>
-  <data name="&gt;&gt;oAuth2OneDrive.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tpOneDrive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 40</value>
-  </data>
-  <data name="tpOneDrive.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tpOneDrive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>972, 475</value>
-  </data>
-  <data name="tpOneDrive.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="tpOneDrive.Text" xml:space="preserve">
-    <value>OneDrive</value>
-  <comment>@Invariant</comment></data>
-  <data name="&gt;&gt;tpOneDrive.Name" xml:space="preserve">
-    <value>tpOneDrive</value>
-  </data>
-  <data name="&gt;&gt;tpOneDrive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tpOneDrive.Parent" xml:space="preserve">
-    <value>tcFileUploaders</value>
-  </data>
-  <data name="&gt;&gt;tpOneDrive.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="txtAmazonS3CustomDomain.Location" type="System.Drawing.Point, System.Drawing">
@@ -3886,7 +4034,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="btnAmazonS3BucketNameOpen.Text" xml:space="preserve">
     <value>...</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;btnAmazonS3BucketNameOpen.Name" xml:space="preserve">
     <value>btnAmazonS3BucketNameOpen</value>
   </data>
@@ -3913,7 +4061,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="btnAmazonS3AccessKeyOpen.Text" xml:space="preserve">
     <value>...</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;btnAmazonS3AccessKeyOpen.Name" xml:space="preserve">
     <value>btnAmazonS3AccessKeyOpen</value>
   </data>
@@ -3928,31 +4076,31 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="cbAmazonS3Endpoint.Items" xml:space="preserve">
     <value>https://s3-ap-northeast-1.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items1" xml:space="preserve">
     <value>https://s3-ap-southeast-1.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items2" xml:space="preserve">
     <value>https://s3-ap-southeast-2.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items3" xml:space="preserve">
     <value>https://s3-eu-west-1.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items4" xml:space="preserve">
     <value>https://s3-sa-east-1.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items5" xml:space="preserve">
     <value>https://s3-us-west-1.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items6" xml:space="preserve">
     <value>https://s3-us-west-2.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items7" xml:space="preserve">
     <value>https://s3.amazonaws.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Items8" xml:space="preserve">
     <value>https://objects.dreamhost.com/</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="cbAmazonS3Endpoint.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 128</value>
   </data>
@@ -4222,7 +4370,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpAmazonS3.Text" xml:space="preserve">
     <value>Amazon S3</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpAmazonS3.Name" xml:space="preserve">
     <value>tpAmazonS3</value>
   </data>
@@ -4540,7 +4688,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpMega.Text" xml:space="preserve">
     <value>Mega</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpMega.Name" xml:space="preserve">
     <value>tpMega</value>
   </data>
@@ -4861,7 +5009,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpOwnCloud.Text" xml:space="preserve">
     <value>ownCloud</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpOwnCloud.Name" xml:space="preserve">
     <value>tpOwnCloud</value>
   </data>
@@ -5074,7 +5222,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpMediaFire.Text" xml:space="preserve">
     <value>MediaFire</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpMediaFire.Name" xml:space="preserve">
     <value>tpMediaFire</value>
   </data>
@@ -5236,7 +5384,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpPushbullet.Text" xml:space="preserve">
     <value>Pushbullet</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpPushbullet.Name" xml:space="preserve">
     <value>tpPushbullet</value>
   </data>
@@ -5464,7 +5612,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpRapidShare.Text" xml:space="preserve">
     <value>RapidShare</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpRapidShare.Name" xml:space="preserve">
     <value>tpRapidShare</value>
   </data>
@@ -5641,7 +5789,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpSendSpace.Text" xml:space="preserve">
     <value>SendSpace</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpSendSpace.Name" xml:space="preserve">
     <value>tpSendSpace</value>
   </data>
@@ -5698,7 +5846,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpMediaCrush.Text" xml:space="preserve">
     <value>MediaCrush</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpMediaCrush.Name" xml:space="preserve">
     <value>tpMediaCrush</value>
   </data>
@@ -5884,7 +6032,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpGe_tt.Text" xml:space="preserve">
     <value>Ge.tt</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpGe_tt.Name" xml:space="preserve">
     <value>tpGe_tt</value>
   </data>
@@ -6043,7 +6191,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpHostr.Text" xml:space="preserve">
     <value>Hostr</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpHostr.Name" xml:space="preserve">
     <value>tpHostr</value>
   </data>
@@ -6493,7 +6641,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpMinus.Text" xml:space="preserve">
     <value>Minus</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpMinus.Name" xml:space="preserve">
     <value>tpMinus</value>
   </data>
@@ -6517,7 +6665,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="txtJiraIssuePrefix.Text" xml:space="preserve">
     <value>PROJECT-</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;txtJiraIssuePrefix.Name" xml:space="preserve">
     <value>txtJiraIssuePrefix</value>
   </data>
@@ -6601,7 +6749,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="txtJiraHost.Text" xml:space="preserve">
     <value>http://</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;txtJiraHost.Name" xml:space="preserve">
     <value>txtJiraHost</value>
   </data>
@@ -6700,7 +6848,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpJira.Text" xml:space="preserve">
     <value>Atlassian Jira</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpJira.Name" xml:space="preserve">
     <value>tpJira</value>
   </data>
@@ -7792,7 +7940,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpPastebin.Text" xml:space="preserve">
     <value>Pastebin</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpPastebin.Name" xml:space="preserve">
     <value>tpPastebin</value>
   </data>
@@ -7870,7 +8018,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpPaste_ee.Text" xml:space="preserve">
     <value>Paste.ee</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpPaste_ee.Name" xml:space="preserve">
     <value>tpPaste_ee</value>
   </data>
@@ -7969,7 +8117,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpGist.Text" xml:space="preserve">
     <value>Gist</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpGist.Name" xml:space="preserve">
     <value>tpGist</value>
   </data>
@@ -8077,7 +8225,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpUpaste.Text" xml:space="preserve">
     <value>uPaste</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpUpaste.Name" xml:space="preserve">
     <value>tpUpaste</value>
   </data>
@@ -8206,7 +8354,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpHastebin.Text" xml:space="preserve">
     <value>Hastebin</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpHastebin.Name" xml:space="preserve">
     <value>tpHastebin</value>
   </data>
@@ -8374,7 +8522,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="chImgurTitle.Text" xml:space="preserve">
     <value>Title</value>
   </data>
@@ -8503,7 +8651,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpImgur.Text" xml:space="preserve">
     <value>Imgur</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpImgur.Name" xml:space="preserve">
     <value>tpImgur</value>
   </data>
@@ -8743,7 +8891,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpImageShack.Text" xml:space="preserve">
     <value>ImageShack</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpImageShack.Name" xml:space="preserve">
     <value>tpImageShack</value>
   </data>
@@ -8947,7 +9095,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpTinyPic.Text" xml:space="preserve">
     <value>TinyPic</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpTinyPic.Name" xml:space="preserve">
     <value>tpTinyPic</value>
   </data>
@@ -9127,7 +9275,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpFlickr.Text" xml:space="preserve">
     <value>Flickr</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpFlickr.Name" xml:space="preserve">
     <value>tpFlickr</value>
   </data>
@@ -9619,7 +9767,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpPhotobucket.Text" xml:space="preserve">
     <value>Photobucket</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpPhotobucket.Name" xml:space="preserve">
     <value>tpPhotobucket</value>
   </data>
@@ -9685,7 +9833,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="chPicasaID.Text" xml:space="preserve">
     <value>ID</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="chPicasaID.Width" type="System.Int32, mscorlib">
     <value>135</value>
   </data>
@@ -9787,7 +9935,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpPicasa.Text" xml:space="preserve">
     <value>Picasa</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpPicasa.Name" xml:space="preserve">
     <value>tpPicasa</value>
   </data>
@@ -9847,7 +9995,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="lblCheveretoWebsiteTip.Text" xml:space="preserve">
     <value>/api/1/upload</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;lblCheveretoWebsiteTip.Name" xml:space="preserve">
     <value>lblCheveretoWebsiteTip</value>
   </data>
@@ -9976,7 +10124,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
   </data>
   <data name="tpChevereto.Text" xml:space="preserve">
     <value>Chevereto</value>
-  <comment>@Invariant</comment></data>
+  </data>
   <data name="&gt;&gt;tpChevereto.Name" xml:space="preserve">
     <value>tpChevereto</value>
   </data>
@@ -10185,6 +10333,12 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>chArgumentsValue</value>
   </data>
   <data name="&gt;&gt;chArgumentsValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chGoogleDriveTitle.Name" xml:space="preserve">
