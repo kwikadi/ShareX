@@ -311,10 +311,10 @@ namespace ShareX
             if (!IsDefault)
             {
                 panelGeneral.Enabled = !TaskSettings.UseDefaultGeneralSettings;
-                tcImage.Enabled = pImage.Enabled = !TaskSettings.UseDefaultImageSettings;
-                tcCapture.Enabled = pCapture.Enabled = !TaskSettings.UseDefaultCaptureSettings;
+                pImage.Enabled = ((Control)tpEffects).Enabled = ((Control)tpThumbnail).Enabled = !TaskSettings.UseDefaultImageSettings;
+                pCapture.Enabled = ((Control)tpRegionCapture).Enabled = ((Control)tpScreenRecorder).Enabled = ((Control)tpRectangleAnnotate).Enabled = !TaskSettings.UseDefaultCaptureSettings;
                 pActions.Enabled = !TaskSettings.UseDefaultActions;
-                tcUpload.Enabled = pUpload.Enabled = !TaskSettings.UseDefaultUploadSettings;
+                pUpload.Enabled = ((Control)tpUploadClipboard).Enabled = !TaskSettings.UseDefaultUploadSettings;
                 pgIndexerConfig.Enabled = !TaskSettings.UseDefaultIndexerSettings;
                 pgTaskSettings.Enabled = !TaskSettings.UseDefaultAdvancedSettings;
             }
@@ -925,6 +925,11 @@ namespace ShareX
         {
             ExternalProgram fileAction = e.Item.Tag as ExternalProgram;
             fileAction.IsActive = e.Item.Checked;
+        }
+
+        private void lvActions_ItemMoved(object sender, int oldIndex, int newIndex)
+        {
+            TaskSettings.ExternalPrograms.Move(oldIndex, newIndex);
         }
 
         #endregion Actions
